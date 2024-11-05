@@ -1,4 +1,5 @@
 import CategorySection from "./layout/CategorySection";
+import { Footer } from "./layout/Footer";
 import RecentsSection from "./layout/RecentsSection";
 import StatisticSection from "./layout/StatisticSection";
 
@@ -8,6 +9,7 @@ export default function Home() {
       <StatisticSection />
       <RecentsSection />
       <CategorySection />
+      <Footer />
     </div>
   );
 }
