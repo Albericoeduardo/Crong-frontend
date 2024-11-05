@@ -35,7 +35,7 @@ const CategorySection = () => {
     },
   ]
   return (
-    <div>
+    <div className='flex flex-col gap-4'>
       {categories.map((category, index) => {
         return (
           <CategoryCard
