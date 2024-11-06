@@ -1,5 +1,6 @@
 import React from 'react'
 import CategoryCard from '../components/CategoryCard'
+import SectionHeader from '../components/SectionHeader'
 
 const CategorySection = () => {
   const categories = [
@@ -35,17 +36,22 @@ const CategorySection = () => {
     },
   ]
   return (
-    <div className='flex flex-col gap-4'>
-      {categories.map((category, index) => {
-        return (
-          <CategoryCard
-            category={category.categoria}
-            imageSrc={category.imagem}
-            subCategory={category.subcategoria}
-            key={index}
-          />
-        )
-      })}
+    <div>
+      <SectionHeader
+        title='ONGs por categoria'
+      />
+      <div className='flex flex-col gap-4'>
+        {categories.map((category, index) => {
+          return (
+            <CategoryCard
+              category={category.categoria}
+              imageSrc={category.imagem}
+              subCategory={category.subcategoria}
+              key={index}
+            />
+          )
+        })}
+      </div>
     </div>
   )
 }
