@@ -1,7 +1,7 @@
 import React from 'react'
 
 const HeroSection = () => {
-  const heroSectionImg = '/1440x1024.svg'
+  const heroSectionImg = '/bgIMG.png'
 
   return (
     <div
