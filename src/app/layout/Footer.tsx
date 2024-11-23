@@ -7,28 +7,28 @@ const people = [
     name: "Albérico Eduardo",
     designation: "Desenvolvedor FullStack",
     image:
-      "/Alberico.jpeg",
+      "/footerImgs/Alberico.jpeg",
   },
   {
     id: 2,
     name: "André Alves",
     designation: "Desenvolvedor Backend",
     image:
-      "/Andre.jpg",
+      "/footerImgs/Andre.jpg",
   },
   {
     id: 3,
     name: "Leonardo Vinícius",
     designation: "Gerente de Projetos",
     image:
-      "/Leonardo.jpg",
+      "/footerImgs/Leonardo.jpg",
   },
   {
     id: 4,
     name: "Matheus Suarte",
     designation: "Desenvolvedor",
     image:
-      "/Suarte.jpeg",
+      "/footerImgs/Suarte.jpeg",
   }
 ];
 
