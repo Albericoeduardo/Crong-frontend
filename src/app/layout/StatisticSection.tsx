@@ -1,25 +1,26 @@
 import React from 'react'
 import StatisicCard from '../components/StatisticCard'
 import SectionHeader from '../components/SectionHeader'
+import db from '@/data/db'
 
 const StatisticSection = () => {
-    const statistics = [
-      {
-        titulo: "76 ONGs",
-        imagem: "/140x140.svg",
-        descricao: "São 76 ONGs por todo o Brasil cadastradas na nossa plataforma"
-      },
-      {
-        titulo: "76 ONGs",
-        imagem: "/140x140.svg",
-        descricao: "São 76 ONGs por todo o Brasil cadastradas na nossa plataforma"
-     },
-      {
-        titulo: "76 ONGs",
-        imagem: "/140x140.svg",
-        descricao: "São 76 ONGs por todo o Brasil cadastradas na nossa plataforma"
-      },
-    ]
+  const statistics = [
+    {
+      titulo: `${db.length} ONGs`,
+      imagem: "/testImgs/140x140.svg",
+      descricao: `São ${db.length} ONGs por todo o Brasil cadastradas na nossa plataforma`
+    },
+    {
+      titulo: "76 ONGs",
+      imagem: "/testImgs/140x140.svg",
+      descricao: "São 76 ONGs por todo o Brasil cadastradas na nossa plataforma"
+    },
+    {
+      titulo: "76 ONGs",
+      imagem: "/testImgs/140x140.svg",
+      descricao: "São 76 ONGs por todo o Brasil cadastradas na nossa plataforma"
+    },
+  ]
 
   return (
     <div className='flex flex-col'>

@@ -1,3 +1,5 @@
+"use client"
+
 import React from 'react'
 import CategoryCard from '../components/CategoryCard'
 import SectionHeader from '../components/SectionHeader'
@@ -5,36 +7,27 @@ import SectionHeader from '../components/SectionHeader'
 const CategorySection = () => {
   const categories = [
     {
-      categoria: "categoria",
-      imagem: "/100x100.svg",
-      subcategoria: "subcategoria"
+      categoria: "Educação",
+      imagem: "/testImgs/100x100.svg"
     },
     {
-      categoria: "categoria",
-      imagem: "/100x100.svg",
-      subcategoria: "subcategoria"
+      categoria: "Meio Ambiente",
+      imagem: "/testImgs/100x100.svg"
     },
     {
-      categoria: "categoria",
-      imagem: "/100x100.svg",
-      subcategoria: "subcategoria"
+      categoria: "Saúde",
+      imagem: "/testImgs/100x100.svg"
     },
     {
-      categoria: "categoria",
-      imagem: "/100x100.svg",
-      subcategoria: "subcategoria"
+      categoria: "Direitos Humanos",
+      imagem: "/testImgs/100x100.svg"
     },
     {
-      categoria: "categoria",
-      imagem: "/100x100.svg",
-      subcategoria: "subcategoria"
-    },
-    {
-      categoria: "categoria",
-      imagem: "/100x100.svg",
-      subcategoria: "subcategoria"
-    },
+      categoria: "Assistência Social",
+      imagem: "/testImgs/100x100.svg"
+    }
   ]
+
   return (
     <div>
       <SectionHeader
@@ -46,7 +39,6 @@ const CategorySection = () => {
             <CategoryCard
               category={category.categoria}
               imageSrc={category.imagem}
-              subCategory={category.subcategoria}
               key={index}
             />
           )

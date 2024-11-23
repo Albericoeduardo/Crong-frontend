@@ -1,4 +1,3 @@
-// components/SectionHeader.tsx
 import React from 'react';
 import { bodyText1Regular, heading1Bold } from '../designSystem/typo/typo';
 

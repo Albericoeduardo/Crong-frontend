@@ -4,8 +4,7 @@ import React from 'react'
 const Navbar = () => {
   const links = [
     {link: '/', label: "Home"},
-    {link: '/ongs', label: "ONGs"},
-    {link: '/more', label: "Saiba mais"},
+    {link: '/ongs', label: "ONGs"}
   ]
 
   return (

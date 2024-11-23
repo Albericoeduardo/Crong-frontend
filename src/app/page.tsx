@@ -5,6 +5,7 @@ import HeroSection from "./layout/HeroSection";
 import RecentsSection from "./layout/RecentsSection";
 import StatisticSection from "./layout/StatisticSection";
 
+
 export default function Home() {
   return (
     <div className="flex justify-center flex-col items-center gap-10">
