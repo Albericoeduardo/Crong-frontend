@@ -17,7 +17,7 @@ const RecentsSection = () => {
         {recentsOngs.map((recent, index) => {
           return (
             <RecentsCard
-              href={`/ongstest?name=${recent.Nome}`}
+              href={`/ongs?name=${recent.Nome}`}
               imageSrc={recent.imagem}
               title={recent.Nome}
               description={recent.Descricao}

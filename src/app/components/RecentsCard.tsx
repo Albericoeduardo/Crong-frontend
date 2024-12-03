@@ -15,7 +15,7 @@ interface RecentCardProps {
 const RecentCard: React.FC<RecentCardProps> = ({ imageSrc, title, description, handleRecentOngClick, href }) => {
   return (
     <Link href={href} passHref>
-      <div className="border rounded-md shadow-sm p-4 w-64 bg-white" onClick={handleRecentOngClick}>
+      <div className="border border-black rounded-2xl shadow-sm p-4 w-64 bg-white" onClick={handleRecentOngClick}>
         <div className="w-full h-32 bg-gray-100 rounded-md mb-4 overflow-hidden">
           <Image
             src={imageSrc}

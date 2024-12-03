@@ -6,24 +6,24 @@ import db from '@/data/db'
 const StatisticSection = () => {
   const statistics = [
     {
-      titulo: `${db.length} ONGs`,
-      imagem: "/testImgs/140x140.svg",
-      descricao: `São ${db.length} ONGs por todo o Brasil cadastradas na nossa plataforma`
+      titulo: `Conexões`,
+      imagem: "/tree-svgrepo.svg",
+      descricao: `Descubra as ${db.length} ONGs cadastradas na nossa plataforma e veja como elas estão mudando o Brasil.`
     },
     {
-      titulo: "76 ONGs",
-      imagem: "/testImgs/140x140.svg",
-      descricao: "São 76 ONGs por todo o Brasil cadastradas na nossa plataforma"
+      titulo: "Transformação",
+      imagem: "/recycling-svgrepo.svg",
+      descricao: "Cada ONG tem uma história única e causas importantes. Descubra como você pode fazer parte dessas iniciatívas e ajudar a construir comunidades mais fortes"
     },
     {
-      titulo: "76 ONGs",
-      imagem: "/testImgs/140x140.svg",
-      descricao: "São 76 ONGs por todo o Brasil cadastradas na nossa plataforma"
+      titulo: "Impacto",
+      imagem: "/ocean-svgrepo.svg",
+      descricao: "Explore ONGs que atuam em educação, meio ambiente, saúde, direitos humanos e veja como sua colaboração pode salvar vidas."
     },
   ]
 
   return (
-    <div className='flex flex-col'>
+    <div className='flex flex-col items-center'>
       <SectionHeader
         title='CRONG é uma plataforma para divulgar ONGs'
         description='Nosso intuito é fazer com que você ache facilmente instituições ou projetos que ajudam o mundo a se tornar um lugar melhor'
