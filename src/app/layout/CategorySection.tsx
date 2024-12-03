@@ -8,23 +8,23 @@ const CategorySection = () => {
   const categories = [
     {
       categoria: "Educação",
-      imagem: "/testImgs/100x100.svg"
+      imagem: "/categoryImgs/Educacao.png"
     },
     {
       categoria: "Meio Ambiente",
-      imagem: "/testImgs/100x100.svg"
+      imagem: "/categoryImgs/MeioAmbiente.png"
     },
     {
       categoria: "Saúde",
-      imagem: "/testImgs/100x100.svg"
+      imagem: "/categoryImgs/Saude.png"
     },
     {
       categoria: "Direitos Humanos",
-      imagem: "/testImgs/100x100.svg"
+      imagem: "/categoryImgs/DireitosHumanos.png"
     },
     {
       categoria: "Assistência Social",
-      imagem: "/testImgs/100x100.svg"
+      imagem: "/categoryImgs/AssistenciaSocial.png"
     }
   ]
 

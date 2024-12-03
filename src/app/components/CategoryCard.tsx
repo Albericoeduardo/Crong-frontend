@@ -33,7 +33,7 @@ const CategoryCard: React.FC<CategoryCardProps> = ({ imageSrc, category }) => {
       </div>
       </div>
       <button
-        className="px-4 py-2 text-black bg-orange-950 rounded-md text-xs font-semibold hover:bg-brown-700 transition"
+        className="px-4 py-2 text-white bg-orange-950 rounded-md text-xs font-semibold hover:bg-brown-700 transition"
         onClick={handleExploreClick}
       >
       Explorar

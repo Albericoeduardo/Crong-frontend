@@ -1,6 +1,6 @@
 "use client";
 
-import React, { Suspense } from 'react'
+import React from 'react'
 import { useSearchParams } from 'next/navigation'
 
 const OnsPage = () => {
@@ -8,9 +8,7 @@ const OnsPage = () => {
   const ongName = useParams?.get('name')
 
   return (
-    <Suspense fallback={<div>Loading...</div>}>
-      <h1>OnsPage {ongName}</h1>
-    </Suspense>
+    <h1>OnsPage {ongName}</h1>
   )
 }
 
